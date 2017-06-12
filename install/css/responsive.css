@@ -1,0 +1,13 @@
+/*----------------------------------------------------------------------------------
+settings.html css
+----------------------------------------------------------------------------------*/
+@media screen and (max-width: 767px){
+	.theme-select{
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 400px){
+	.skip-button{
+		padding: 5px 25px;
+	}
+}

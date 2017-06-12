@@ -1,0 +1,93 @@
+.no-result {
+	margin: 10px;
+    color: brown;
+}
+
+.admin-action {
+	list-style: none;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333 !important;
+}
+
+.admin-action a {
+	color: #333 !important;
+}
+
+.starRating:not(old){
+  display        : block;
+  width          : 7.5em;
+  height         : 1.5em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background-image      : url('../star-off.svg');
+  background-size : contain;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 1.5em;
+  height          : 1.5em;
+  background-image      : url('../star-on.svg');
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
+
+.starRating-view:not(old){
+  display        : inline-block;
+  width          : 7.5em;
+  height         : 1.5em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.starRating-view:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+
+.starRating-view:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background-image      : url('../star-off.svg');
+  background-size : contain;
+}
+
+.starRating-view:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 1.5em;
+  height          : 1.5em;
+  background-image      : url('../star-on.svg');
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating-view:not(old) > :checked ~ label:before{
+  opacity : 1;
+}
+
+.btn.disabled.full-opacity, .btn[disabled].full-opacity{
+  opacity: 1!important;
+}

@@ -1,0 +1,392 @@
+.no-margin{
+	margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+    -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+    color: #33495E;
+    font-weight: 200;
+    background-color: #ecf0f1;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}
+h3 {
+    font-size: 36px;
+}
+.october .section-header {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+a {
+    color: #0181b9;
+}
+.install-page{
+	min-height: 700px;
+}
+.october-image{
+	width: 207px;
+    height: 60px;
+    overflow: hidden;
+}
+.october-image img{
+	width: 100%;
+    height: 100%;
+}
+.october #wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -100px;
+    padding: 0 0 100px;
+    background: #ecf0f1;
+    position: relative;
+    overflow: hidden;
+}
+
+.october #wrap:before {
+    content: ' ';
+    background: #ecf0f1 url('../../install/images/skyline.png') repeat-x left bottom;
+    position: absolute;
+    bottom: -225px;
+    width: 100%;
+    height: 399px;
+    display: block;
+}
+
+.october header {
+    padding: 40px 0 0;
+    top: 0;
+    background: #162430 url('../../install/images/stars.png');
+    width: 100%;
+    z-index: 2;
+}
+
+.october header h1 {
+    margin: 0 0 30px 0;
+    display: block;
+    height: 47px;
+    width: 283px;
+    background: transparent url('../images/logo.png') no-repeat left -90px;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.october section.title {
+    position: relative;
+}
+
+.october section.title:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 63px;
+    left: 0;
+    bottom: 0;
+    background: url('../images/clouds.png') repeat-x left top;
+}
+
+.october section.title .steps {
+    position: relative;
+    top: -50px;
+}
+
+.october section.title .steps p {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+    line-height: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    color: rgba(255,255,255,.9);
+    border: 1px solid rgba(255,255,255,.6);
+    border-radius: 99999px;
+    font-size: 22px;
+    opacity: .4;
+    font-weight: 200;
+}
+.october section.title .steps .active p {
+    opacity: 1;
+    background: #e96969;
+    border-color: #e96969;
+}
+
+.october section.title {
+    padding: 10px 0 30px 0;
+}
+.october section.title h2 {
+    margin: 0;
+    color: #ECF0F1;
+    font-size: 32px;
+    line-height: 55px;
+    font-weight: 400;
+}
+.october-container{
+	background-color: #ecf0f1;
+	min-height: 300px;
+}
+#cover{
+	padding: 40px 0;
+}
+#cover p{
+	background-color: #fff;
+	padding: 10px;
+}
+.october-wrap{
+	background-color: #ecf0f1;
+}
+.tick{
+	color: green;
+	border: 2px solid green;
+	border-radius: 50%;
+	margin-right: 5px;
+	padding: 2px;
+    font-size: 9px;
+    vertical-align: middle;
+    line-height: 10px;
+}
+.incorrect{
+	color: #cc3300;
+	border: 2px solid #cc3300;
+	border-radius: 50%;
+	margin-right: 5px;
+	padding: 2px 3px;
+    font-size: 9px;
+    line-height: 1;
+    font-weight: bold;
+}
+#cover div {
+  display: none
+}
+.check-fail-inner{
+	background-color: #b33d3d;
+	padding: 20px;
+    color: #f0f0f0;
+    border-radius: 3px;
+    font-weight: 400;
+}
+.check-success-inner{
+    background-color: #2e6f2e;
+    padding: 20px;
+    color: #f0f0f0;
+    border-radius: 3px;
+    font-weight: 400;
+}
+.fail-head{
+	margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.fail-button{
+	background-color: #fff;
+	border-color: transparent;
+	border-radius: 3px;
+	padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 7px;
+}
+.fail-button:hover,
+.fail-button:active,
+.fail-button:focus{
+	background-color: #ebebeb;
+    border-color: #adadad;
+    border-color: transparent;
+    outline-color: transparent;
+}
+.october footer{
+	background: transparent url('../images/grass.png') repeat-x left bottom;
+    height: 100px;
+    z-index: 10;
+    position: relative;
+    background-color: #ecf0f1;
+}
+.install-tree{
+	padding: 20px;
+}
+.agree button{
+	background-color: rgba(66, 139, 202,.65);
+    border-color: transparent;
+	padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #fff;
+    float: right;
+}
+.agree button:hover,
+.agree button:active,
+.agree button:focus{
+	background-color: rgba(52, 113, 167, 0.65);
+}
+/*------------------------------------------------------------------------------------
+theme.html css
+-------------------------------------------------------------------------------------*/
+.install-theme-outer{
+	padding: 20px 0;
+}
+.theme-change-head{
+	color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.install-theme-inner{
+	background-color: #fff;
+	padding: 20px 0;
+	border-radius: 6px;
+}
+.theme-select-head{
+	margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.sixteen-nine {
+  position: relative;
+}
+.sixteen-nine:before {
+  display: block;
+  content: " ";
+  width: 100%;
+  padding-top: 56.25%;
+}
+.sixteen-nine > .install-theme-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+.install-theme-image img{
+	width: 100%;
+	height: 100%;
+}
+.install-demo{
+	margin-top: 10px;
+	text-align: center;
+}
+.install-demo .form-check{
+	float: left;
+    margin-top: 6px;
+}
+.install-demo label{
+	color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+.install-demo input[type=checkbox]{
+  margin-right: 5px;
+}
+.install-demo input[type="checkbox"]:focus{
+	outline: 0;
+}
+.theme-select{
+	border: 1px solid #999;
+	padding: 10px;
+	border-radius: 4px;
+}
+.demo-button{
+	background-color: #162430;
+    border: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px #16354e;
+    margin-left: 5px;
+    float: right;
+}
+.demo-button:hover,
+.demo-button:active,
+.demo-button:focus{
+	background-color: #2f5b82;
+	border-color: transparent;
+	outline-color: transparent;
+}
+.skip-continue{
+	margin-top: 20px;
+}
+.skip-button{
+	background-color: ;
+    border: none;
+    color: #fff;
+    padding: 6px 45px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.skip-button:hover,
+.skip-button:active,
+.skip-button:focus{
+	background-color: #b35d23;
+	border-color: transparent;
+	outline-color: transparent;
+}
+
+.continue-button{
+    background-color: #e96969;
+    border: none;
+    color: #fff;
+    padding: 6px 45px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.continue-button:hover,
+.continue-button:active,
+.continue-button:focus{
+    background-color: #ea4949;
+    border-color: transparent;
+    outline-color: transparent;
+}
+.continue{
+	text-align: right;
+}
+/*----------------------------------------------------------------------------------
+settings.html css
+----------------------------------------------------------------------------------*/
+.install-settings-outer{
+	padding: 20px 0;
+}
+.install-settings-inner{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 6px;
+}
+.set-image input[type=text]{
+	/*width: 60%;*/
+}
+.set-image input[type=file]{
+	border: 1px solid rgba(0,0,0,.15);
+    padding: 4px;
+    width: 100%;
+    border-radius: 4px;
+    color: #55595c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.set-image label{
+	font-weight: bold;
+	color: #333;
+}
+.set-image input[type=file]:active,
+.set-image input[type=file]:focus{
+	border-color: #66afe9;
+    outline: 0;
+}

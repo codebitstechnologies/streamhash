@@ -1,0 +1,434 @@
+/*index.html responsive*/
+@media screen and (max-width: 771px){
+	.test img {
+	    margin-right: 40px !important;
+	}
+	.about{
+		padding: 0;
+	}
+	.term{
+		padding: 0;
+	}
+}
+@media screen and (max-width: 767px){
+	.y-menu{
+		position: absolute;
+		z-index: 999;
+		width: 50%;
+		top: -17px;
+	}
+	.foot-content ul{
+		padding: 0 !important;
+	}
+	.foot-content {
+	    padding: 0 !important;
+	}
+	.foot-div{
+		padding: 0 0 10px 0 !important;
+	}
+}
+@media screen and (max-width:651px){
+	.foot-content {
+	    margin-left: 0;
+	}
+@media screen and (max-width:673px){
+	.test img {
+	    margin-right: 10px !important;
+	}
+}
+@media screen and (max-width: 643px){
+	#custom-search-input {
+	    width: 45% !important;
+	}
+}
+@media screen and (max-width: 593px){
+	.y-button{
+		position: absolute;
+		top: 13px;
+		right: 15px;
+	}
+	.profile-edit{
+		margin-top: 80px !important;
+	}
+	#custom-search-input {
+	    width: 100% !important;
+	    float: none !important;
+	    margin-bottom: 5px;
+	    margin-top: 10px !important;
+	}
+	#custom-search-input input{
+		width: 105%;
+	}
+	.y-menu{
+		margin-top: 120px;
+	}
+	.you-image a{
+		float: none  !important;
+		margin-bottom: 5px;
+	}
+	.page-inner {
+	    margin-top: 123px !important;
+	}
+	.recom-image{
+			height: 120px!important;
+		}
+
+}
+@media screen and (max-width: 592px){
+	.profile-edit{
+		margin-top: 80px !important;
+	}
+}
+@media screen and (max-width: 467px){
+	.term li a {
+	    font-size: 9px !important;
+	}
+	.about li a{
+		font-size: 10px !important;
+	}
+}
+@media screen and (max-width: 408px){
+	.about li a {
+	    font-size: 8px !important;
+	}
+	.foot-content {
+	    margin-left: 16px !important;
+	}
+	.terms li a {
+	    font-size: 8px !important;
+	}
+	.foot-content ul {
+	    margin: 0 !important;
+	}
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------
+videos.html responsive
+-------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1199px){
+	.watch-video .container{
+		width: 100%;
+	}
+	.watchvideo-row{
+		margin-right: 0;
+		margin-right: 0;
+	}
+}
+@media screen and (max-width: 996px){
+	.watch-video .container{
+		width: 100%;
+	}
+	.play-video{
+		padding-left: 0;
+	}
+	.share-details{
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 935px){
+	.watch-video .container{
+		width: 100%;
+	}
+	.mylist{
+		float: none;
+		margin-bottom: 7px;
+	}
+}
+@media screen and (max-width: 880px){
+	.sugg-description p{
+		font-size: 9px !important;
+	}
+	.sugg-head h5{
+		font-size: 11px !important;
+	}
+	.stars i {
+	    font-size: 8px !important;
+	}
+}
+@media screen and (max-width: 789px){
+	.sugg-description p{
+		font-size: 8px !important;
+	}
+	.sugg-head h5{
+		font-size: 10px !important;
+	}
+}
+@media screen and (max-width: 783px){	
+	.switch label{
+    	font-size: 11px  !important;   
+	}
+}
+@media screen and (max-width: 767px){
+	.side-video{
+		margin-top: 10px;
+	}
+	.sugg-description p{
+		font-size: 10px;
+	}
+	.stars i {
+	    font-size: 11px;
+	}
+	.more-content a{
+		/*padding: 0;*/
+	}
+	/*.video-image{
+		margin-right: 1% !important;
+		height: 150px;
+	}*/
+	#comment_form textarea {
+	    width: 87% !important;
+	}
+	.com-image {
+	    margin-right: 3%;
+	    width: 9%;
+	}
+}
+@media screen and (max-width: 544px){
+	.watch-button{
+		font-size: 11px;
+	}
+}
+@media screen and (max-width: 593px){
+	.watch-video {
+	    margin-top: 134px !important;
+	}
+	.video-y-menu {
+	    top: 47px !important;
+	}
+	.custom-side{
+		padding-left: 0;
+	}
+	.profile-content {
+    margin-top: 122px !important;
+	}
+}
+@media screen and (max-width: 519px){
+	.title h3{
+		width: 70% !important;
+		font-size: 16px !important;
+	}
+	#comment_form textarea {
+	    width: 85% !important;
+	}
+	.com-image {
+	    margin-right: 5%;
+	    width: 9%;
+	}
+	
+}
+@media screen and (max-width: 584px){
+	.title h3{
+		width: 100% !important;
+	}
+	.watch-duration{
+		float: left !important;
+		width: 100% !important;
+		margin-top: 7px !important;
+	}
+	.watch-button {
+	    float: left !important;
+	}
+	.title p {
+	    float: right !important;
+	    margin-top: 7px;
+	}
+}
+@media screen and (max-width: 452px){
+	.video-title p {
+	    font-size: 11px !important;
+	}
+	.title h3{
+		font-size: 14px !important;
+	}
+}
+@media screen and (max-width: 421px){
+	.share-fb{
+		margin-bottom: 10px;
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}
+	.share-google{
+		margin-bottom: 10px;
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}
+	.ratings {
+    float: none;
+    margin-top: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+	.more-content a{
+		/*padding: 0;*/
+	}
+	#comment_form textarea {
+	    width: 82% !important;
+	}
+	.com-image {
+	    margin-right: 8%;
+	    width: 10%;
+	}
+}
+@media screen and (max-width: 406px){
+	#comment_form textarea {
+	    width: 75% !important;
+	}
+}
+@media screen and (max-width: 364px){
+	.title h3 {
+	    font-size: 12px !important;
+	    font-weight: bold;
+	}
+	.video-title h4 {
+	    font-weight: 10px !important;
+	}
+	.com-image {
+	    margin-right: 10%;
+	    width: 10%;
+	}
+}
+@media screen and (max-width: 338px){
+	.sugg-description p {
+	    font-size: 9px;
+	}
+	.stars i {
+	    font-size: 8px;
+	}
+}
+@media screen and (max-width: 328px){
+	.title h3 {
+	    font-size: 11px !important;
+	    font-weight: bold;
+	    width: 65% !important;
+	}
+	.video-title p {
+	    font-size: 8px;
+	}
+	.video-title h4 {
+	    font-size: 9px;
+	}
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+history.html responsive
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 500px){
+	.clear-button button{
+	    padding: 0px 5px !important;
+	}
+}
+@media screen and (max-width: 400px){
+	.cross-title h5{
+		font-size: 12px !important;
+	}
+	.description p{
+		font-size: 10px !important;
+		line-height: 13px !important;
+	}
+	.cross-mark i {
+		font-size: 13px !important;
+	}
+	.history-title{
+		width: 68% !important;
+	}
+	.history-image{
+		width: 30% !important;
+	}
+}
+@media screen and (max-width: 350px){
+	.cross-title h5{
+		font-size: 11px !important;
+	}
+	.description p{
+		font-size: 10px !important;
+		line-height: 13px !important;
+	}
+	.cross-mark i {
+		font-size: 12px !important;
+	}
+	.history-title{
+		width: 58% !important;
+	}
+	.history-image{
+		width: 40% !important;
+	}
+}
+/*---------------------------------------------------------------------------------------------------------------------------------
+videos.html responsive
+-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+signup.html css
+----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 593px){
+	.signup-nav .you-image a {
+    	float: left !important;
+	}
+	..y-button {
+	    /*float: right !important;*/
+	    /*margin-top: 10px !important;*/
+	    margin: 0 !important;
+	}
+	.signup-nav .you-image {
+	    text-align: left !important;
+	}
+	.profile-view{
+		margin-top: 40px;
+	}
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+category.html css
+----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 767px){
+	.category-nav .nav > li{
+		margin: 5px 5px 5px 21px !important;
+		padding: 4px !important;
+	}
+	.tube-image{
+		height: 36px !important;
+		padding: 0 !important;
+	}
+	.about li a{
+		font-size: 11px;
+	}
+	.term li a{
+		font-size: 10px;
+	}
+	.profile-next{
+		margin: 0;
+	}
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------
+recommend.html css
+----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 599px){
+	.recom-box{
+		width: 49% !important;
+	}
+}
+@media screen and (max-width: 479px){
+	.recom-image{
+		max-height: 200px !important;
+	}
+	.recom-box {
+	    width: 99% !important;
+	}
+	.video-head a{
+		height: 20px !important;
+	}
+}
+@media screen and (max-width: 767px){
+	.mylist-profile{
+		margin-top: 15px;
+	}
+	.profile-view{
+		padding-right: 0;
+	}
+}
+
